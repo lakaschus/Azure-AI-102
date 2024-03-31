@@ -1,0 +1,44 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "name": {
+            "value": "ai102-learning-test-deployment"
+        },
+        "location": {
+            "value": "koreacentral"
+        },
+        "sku": {
+            "value": "S0"
+        },
+        "tagValues": {
+            "value": {}
+        },
+        "identity": {
+            "value": {
+                "type": "None"
+            }
+        },
+        "resourceGroupName": {
+            "value": "ai102-learning-example"
+        },
+        "resourceGroupId": {
+            "value": "/subscriptions/ea54fca2-3a3e-4b3b-91e7-a7bf971e0443/resourceGroups/ai102-learning-example"
+        },
+        "vnet": {
+            "value": {}
+        },
+        "ipRules": {
+            "value": []
+        },
+        "virtualNetworkType": {
+            "value": "None"
+        },
+        "privateEndpoints": {
+            "value": []
+        },
+        "privateDnsZone": {
+            "value": "privatelink.cognitiveservices.azure.com"
+        }
+    }
+}

@@ -1,5 +1,7 @@
 # Study resources for Azure AI-102 AI Engineering
 
+Official overview of study resources: https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-102#study-resources
+
 This repo contains a table of measured skills for the Azure AI-102 course and learning resources associated with each skill.
 
 In addition to that, custom learning notebooks and labs are found in the `labs` directory. Each lab is supposed to related to at least one AI-102 skill measured in the exam.
@@ -24,7 +26,7 @@ In addition to that, custom learning notebooks and labs are found in the `labs` 
 | Skill | MS Labs / Exercises | Documentation | Custom Lab |
 | ----- | ----------------- | ------------- | ------ |
 | Plan for a solution that meets Responsible AI principles | | | |
-| Create an Azure AI resource | | | |
+| Create an Azure AI resource | https://microsoftlearning.github.io/mslearn-ai-services/Instructions/Exercises/01-use-azure-ai-services.html \| https://learn.microsoft.com/en-us/training/modules/create-manage-ai-services/5a-exercise-ai-services | https://learn.microsoft.com/en-us/azure/ai-services/ | [create_az_ai_resource_from_template.ipynb](labs/getting-started/azure_ai_resource_template/create_az_ai_resource_from_template.ipynb) |
 | Determine a default endpoint for a service | | | |
 | Integrate Azure AI services into a continuous integration and continuous delivery (CI/CD) pipeline | | | |
 | Plan and implement a container deployment | | | |
