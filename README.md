@@ -38,9 +38,9 @@ In addition to that, custom learning notebooks and labs are found in the `labs` 
 | Configure diagnostic logging | | | |
 | Monitor an Azure AI resource | | | |
 | Manage costs for Azure AI services | | | |
-| Manage account keys | | | |
-| Protect account keys by using Azure Key Vault | | | |
-| Manage authentication for an Azure AI Service resource | | | |
+| Manage account keys | https://learn.microsoft.com/en-us/training/modules/secure-ai-services/ | | |
+| Protect account keys by using Azure Key Vault | https://learn.microsoft.com/en-us/training/modules/secure-ai-services/ | | |
+| Manage authentication for an Azure AI Service resource | https://learn.microsoft.com/en-us/training/modules/secure-ai-services/ | | |
 | Manage private communications | | | |
 
 ## Implement Content Moderation Solutions (10-15%)

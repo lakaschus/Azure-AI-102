@@ -3,7 +3,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "name": {
-            "value": "ai102-learning-test-deployment"
+            "value": "ai102-test"
         },
         "location": {
             "value": "koreacentral"
@@ -20,10 +20,10 @@
             }
         },
         "resourceGroupName": {
-            "value": "ai102-learning-example"
+            "value": "ai102-example"
         },
         "resourceGroupId": {
-            "value": "/subscriptions/ea54fca2-3a3e-4b3b-91e7-a7bf971e0443/resourceGroups/ai102-learning-example"
+            "value": "/subscriptions/ea54fca2-3a3e-4b3b-91e7-a7bf971e0443/resourceGroups/ai102-example"
         },
         "vnet": {
             "value": {}
