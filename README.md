@@ -4,7 +4,16 @@ Official overview of study resources: https://learn.microsoft.com/en-us/credenti
 
 This repo contains a table of measured skills for the Azure AI-102 course and learning resources associated with each skill.
 
-In addition to that, custom learning notebooks and labs are found in the `labs` directory. Each lab is supposed to related to at least one AI-102 skill measured in the exam.
+In addition to that, custom learning notebooks and labs are found in the `labs` directory. Each lab is supposed to related to at least one AI-102 skill measured in the exam. In the notebooks I will try to do as much as possible using the Python SDK, as I believe this is best approach for automation
+
+Disclaimer: Many code snippets are taken from various MS Learn resources that are subject to the MIT license, such as 
+
+- https://github.com/MicrosoftLearning/mslearn-ai-services
+- https://github.com/MicrosoftLearning/mslearn-ai-vision
+- https://github.com/MicrosoftLearning/mslearn-ai-language
+- https://github.com/MicrosoftLearning/mslearn-ai-document-intelligence
+- https://github.com/MicrosoftLearning/mslearn-knowledge-mining
+- https://github.com/MicrosoftLearning/mslearn-openai
 
 # Table of measured skills
 
@@ -14,7 +23,7 @@ In addition to that, custom learning notebooks and labs are found in the `labs` 
 
 | Skill | MS Labs / Exercises | Documentation |Custom Lab |
 | ----- | ----------------- | ------------- | ------ |
-| Select the appropriate service for a computer vision solution | | | |
+| Select the appropriate service for a computer vision solution | https://learn.microsoft.com/en-us/training/paths/create-computer-vision-solutions-azure-ai/ | | |
 | Select the appropriate service for a natural language processing solution | | | |
 | Select the appropriate service for a speech solution | | | |
 | Select the appropriate service for a generative AI solution | | | |
@@ -29,15 +38,15 @@ In addition to that, custom learning notebooks and labs are found in the `labs` 
 | Create an Azure AI resource | https://microsoftlearning.github.io/mslearn-ai-services/Instructions/Exercises/01-use-azure-ai-services.html \| https://learn.microsoft.com/en-us/training/modules/create-manage-ai-services/5a-exercise-ai-services | https://learn.microsoft.com/en-us/azure/ai-services/ | [create_az_ai_resource_from_template.ipynb](labs/getting-started/azure_ai_resource_template/create_az_ai_resource_from_template.ipynb) |
 | Determine a default endpoint for a service | | | |
 | Integrate Azure AI services into a continuous integration and continuous delivery (CI/CD) pipeline | | | |
-| Plan and implement a container deployment | | | |
+| Plan and implement a container deployment | https://learn.microsoft.com/en-us/training/modules/investigate-container-for-use-with-ai-services/ | https://learn.microsoft.com/en-us/azure/ai-services/cognitive-services-container-support | |
 
 ### Manage, Monitor, and Secure an Azure AI Service
 
-| Skill | MS Labs / Exercises | Documentation | Custom Lab |
+| Skill | MS Labs / Exercises | Documentation | Custom Lab  |
 | ----- | ----------------- | ------------- | ------ |
-| Configure diagnostic logging | | | |
-| Monitor an Azure AI resource | | | |
-| Manage costs for Azure AI services | | | |
+| Configure diagnostic logging | https://learn.microsoft.com/en-us/training/modules/monitor-ai-services | https://learn.microsoft.com/en-us/azure/ai-services/diagnostic-logging | |
+| Monitor an Azure AI resource | https://learn.microsoft.com/en-us/training/modules/monitor-ai-services | https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-overview \| https://learn.microsoft.com/en-us/azure/azure-portal/azure-portal-dashboards | |
+| Manage costs for Azure AI services | https://learn.microsoft.com/en-us/training/modules/monitor-ai-services | https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-overview | |
 | Manage account keys | https://learn.microsoft.com/en-us/training/modules/secure-ai-services/ | | |
 | Protect account keys by using Azure Key Vault | https://learn.microsoft.com/en-us/training/modules/secure-ai-services/ | | |
 | Manage authentication for an Azure AI Service resource | https://learn.microsoft.com/en-us/training/modules/secure-ai-services/ | | |
@@ -58,11 +67,11 @@ In addition to that, custom learning notebooks and labs are found in the `labs` 
 
 | Skill | MS Labs / Exercises | Documentation | Custom Lab |
 | ----- | ----------------- | ------------- | ------ |
-| Select visual features to meet image processing requirements | | | |
-| Detect objects in images and generate image tags | | | |
+| Select visual features to meet image processing requirements | https://learn.microsoft.com/en-us/training/paths/create-computer-vision-solutions-azure-ai/ | | labs\computer-vision\image-analysis\image_analysis.ipynb |
+| Detect objects in images and generate image tags | https://learn.microsoft.com/en-us/training/paths/create-computer-vision-solutions-azure-ai/ | | |
 | Include image analysis features in an image processing request | | | |
-| Interpret image processing responses | | | |
-| Extract text from images using Azure AI Vision | | | |
+| Interpret image processing responses | https://learn.microsoft.com/en-us/training/paths/create-computer-vision-solutions-azure-ai/ | | |
+| Extract text from images using Azure AI Vision | https://learn.microsoft.com/en-us/training/modules/read-text-images-documents-with-computer-vision-service/ | | |
 | Convert handwritten text using Azure AI Vision | | | |
 
 ### Implement Custom Computer Vision Models by Using Azure AI Vision
