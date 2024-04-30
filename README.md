@@ -15,6 +15,10 @@ Disclaimer: Many code snippets are taken from various MS Learn resources that ar
 - https://github.com/MicrosoftLearning/mslearn-knowledge-mining
 - https://github.com/MicrosoftLearning/mslearn-openai
 
+# Status
+
+Incomplete, work in progress
+
 # Table of measured skills
 
 ## Plan and Manage an Azure AI Solution (15-20%)
@@ -68,7 +72,7 @@ Disclaimer: Many code snippets are taken from various MS Learn resources that ar
 | Skill | MS Labs / Exercises | Documentation | Custom Lab |
 | ----- | ----------------- | ------------- | ------ |
 | Select visual features to meet image processing requirements | https://learn.microsoft.com/en-us/training/paths/create-computer-vision-solutions-azure-ai/ | | labs\computer-vision\image-analysis\image_analysis.ipynb |
-| Detect objects in images and generate image tags | https://learn.microsoft.com/en-us/training/paths/create-computer-vision-solutions-azure-ai/ | | |
+| Detect objects in images and generate image tags | https://learn.microsoft.com/en-us/training/paths/create-computer-vision-solutions-azure-ai/ \| https://learn.microsoft.com/en-us/training/modules/detect-analyze-recognize-faces/ | https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/concept-detecting-faces \| https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/overview-identity | |
 | Include image analysis features in an image processing request | | | |
 | Interpret image processing responses | https://learn.microsoft.com/en-us/training/paths/create-computer-vision-solutions-azure-ai/ | | |
 | Extract text from images using Azure AI Vision | https://learn.microsoft.com/en-us/training/modules/read-text-images-documents-with-computer-vision-service/ | | |
@@ -78,9 +82,9 @@ Disclaimer: Many code snippets are taken from various MS Learn resources that ar
 
 | Skill | MS Labs / Exercises | Documentation | Custom Lab |
 | ----- | ----------------- | ------------- | ------ |
-| Choose between image classification and object detection models | | | |
+| Choose between image classification and object detection models | https://learn.microsoft.com/en-us/training/modules/custom-model-ai-vision-image-classification/ | | |
 | Label images | | | |
-| Train a custom image model, including image classification and object detection | | | |
+| Train a custom image model, including image classification and object detection | https://learn.microsoft.com/en-us/training/modules/custom-model-ai-vision-image-classification/ | | |
 | Evaluate custom vision model metrics | | | |
 | Publish a custom vision model | | | |
 | Consume a custom vision model | | | |
