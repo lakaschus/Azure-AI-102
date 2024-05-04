@@ -28,7 +28,7 @@ Incomplete, work in progress
 | Skill | MS Labs / Exercises | Documentation |Custom Lab |
 | ----- | ----------------- | ------------- | ------ |
 | Select the appropriate service for a computer vision solution | https://learn.microsoft.com/en-us/training/paths/create-computer-vision-solutions-azure-ai/ | | |
-| Select the appropriate service for a natural language processing solution | | | |
+| Select the appropriate service for a natural language processing solution | https://learn.microsoft.com/en-us/training/modules/analyze-text-ai-language/ | | |
 | Select the appropriate service for a speech solution | | | |
 | Select the appropriate service for a generative AI solution | | | |
 | Select the appropriate service for a document intelligence solution | | | |
@@ -102,10 +102,10 @@ Incomplete, work in progress
 
 | Skill | MS Labs / Exercises | Documentation | Custom Lab |
 | ----- | ----------------- | ------------- | ------ |
-| Extract key phrases | | | |
-| Extract entities | | | |
-| Determine sentiment of text | | | |
-| Detect the language used in text | | | |
+| Extract key phrases | https://learn.microsoft.com/en-us/training/modules/analyze-text-ai-language/ | | |
+| Extract entities | https://learn.microsoft.com/en-us/training/modules/analyze-text-ai-language/ | https://learn.microsoft.com/en-us/azure/ai-services/language-service/named-entity-recognition/concepts/named-entity-categories?tabs=ga-api | |
+| Determine sentiment of text | https://learn.microsoft.com/en-us/training/modules/analyze-text-ai-language/ | | |
+| Detect the language used in text | https://learn.microsoft.com/en-us/training/modules/analyze-text-ai-language/ | | |
 | Detect personally identifiable information (PII) in text | | | |
 
 ### Process Speech by Using Azure AI Speech
