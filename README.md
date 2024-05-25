@@ -15,6 +15,10 @@ Disclaimer: Many code snippets are taken from various MS Learn resources that ar
 - https://github.com/MicrosoftLearning/mslearn-knowledge-mining
 - https://github.com/MicrosoftLearning/mslearn-openai
 
+The corresponding *modules* can be found here:
+
+https://learn.microsoft.com/en-us/training/browse/?roles=ai-engineer&resource_type=module
+
 # Status
 
 Incomplete, work in progress
