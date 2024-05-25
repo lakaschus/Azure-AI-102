@@ -100,6 +100,8 @@ Incomplete, work in progress
 
 ### Analyze Text by Using Azure AI Language
 
+Overarching documentation: https://learn.microsoft.com/en-us/azure/ai-services/language-service/
+
 | Skill | MS Labs / Exercises | Documentation | Custom Lab |
 | ----- | ----------------- | ------------- | ------ |
 | Extract key phrases | https://learn.microsoft.com/en-us/training/modules/analyze-text-ai-language/ | | |
@@ -141,6 +143,12 @@ Incomplete, work in progress
 | Backup and recover language understanding models | | | |
 
 ### Create a Question Answering Solution by Using Azure AI Language
+
+https://learn.microsoft.com/en-us/training/modules/create-question-answer-solution-ai-language/
+
+docs: https://learn.microsoft.com/en-us/azure/ai-services/language-service/question-answering/overview
+
+I feel like this method is quite outdated. It pales in comparison to using RAG.
 
 | Skill | MS Labs / Exercises | Documentation | Custom Lab |
 | ----- | ----------------- | ------------- | ------ |
