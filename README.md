@@ -33,7 +33,7 @@ Incomplete, work in progress
 | ----- | ----------------- | ------------- | ------ |
 | Select the appropriate service for a computer vision solution | https://learn.microsoft.com/en-us/training/paths/create-computer-vision-solutions-azure-ai/ | | |
 | Select the appropriate service for a natural language processing solution | https://learn.microsoft.com/en-us/training/modules/analyze-text-ai-language/ | | |
-| Select the appropriate service for a speech solution | | | |
+| Select the appropriate service for a speech solution | https://learn.microsoft.com/en-us/training/modules/create-speech-enabled-apps/ | | |
 | Select the appropriate service for a generative AI solution | | | |
 | Select the appropriate service for a document intelligence solution | | | |
 | Select the appropriate service for a knowledge mining solution | | | |
@@ -109,7 +109,7 @@ Overarching documentation: https://learn.microsoft.com/en-us/azure/ai-services/l
 | Skill | MS Labs / Exercises | Documentation | Custom Lab |
 | ----- | ----------------- | ------------- | ------ |
 | Extract key phrases | https://learn.microsoft.com/en-us/training/modules/analyze-text-ai-language/ | | |
-| Extract entities | https://learn.microsoft.com/en-us/training/modules/analyze-text-ai-language/ | https://learn.microsoft.com/en-us/azure/ai-services/language-service/named-entity-recognition/concepts/named-entity-categories?tabs=ga-api | |
+| Extract entities | https://learn.microsoft.com/en-us/training/modules/analyze-text-ai-language/ \| https://learn.microsoft.com/en-us/training/modules/custom-name-entity-recognition/ | https://learn.microsoft.com/en-us/azure/ai-services/language-service/named-entity-recognition/concepts/named-entity-categories?tabs=ga-api | |
 | Determine sentiment of text | https://learn.microsoft.com/en-us/training/modules/analyze-text-ai-language/ | | |
 | Detect the language used in text | https://learn.microsoft.com/en-us/training/modules/analyze-text-ai-language/ | | |
 | Detect personally identifiable information (PII) in text | | | |
@@ -118,9 +118,9 @@ Overarching documentation: https://learn.microsoft.com/en-us/azure/ai-services/l
 
 | Skill | MS Labs / Exercises | Documentation | Custom Lab |
 | ----- | ----------------- | ------------- | ------ |
-| Implement text-to-speech | | | |
-| Implement speech-to-text | | | |
-| Improve text-to-speech by using Speech Synthesis Markup Language (SSML) | | | |
+| Implement text-to-speech | https://learn.microsoft.com/en-us/training/modules/create-speech-enabled-apps/ | | |
+| Implement speech-to-text | https://learn.microsoft.com/en-us/training/modules/create-speech-enabled-apps/ | | |
+| Improve text-to-speech by using Speech Synthesis Markup Language (SSML) | https://learn.microsoft.com/en-us/training/modules/create-speech-enabled-apps/ | | |
 | Implement custom speech solutions | | | |
 | Implement intent recognition | | | |
 | Implement keyword recognition | | | |
