@@ -19,6 +19,10 @@ The corresponding *modules* can be found here:
 
 https://learn.microsoft.com/en-us/training/browse/?roles=ai-engineer&resource_type=module
 
+And assessments, which are good prep for certification, can be found here:
+
+https://learn.microsoft.com/en-us/credentials/browse/?roles=ai-engineer&expanded=certification&credential_types=applied%20skills
+
 # Status
 
 Incomplete, work in progress
@@ -120,7 +124,7 @@ Overarching documentation: https://learn.microsoft.com/en-us/azure/ai-services/l
 | ----- | ----------------- | ------------- | ------ |
 | Implement text-to-speech | https://learn.microsoft.com/en-us/training/modules/create-speech-enabled-apps/ | | |
 | Implement speech-to-text | https://learn.microsoft.com/en-us/training/modules/create-speech-enabled-apps/ | | |
-| Improve text-to-speech by using Speech Synthesis Markup Language (SSML) | https://learn.microsoft.com/en-us/training/modules/create-speech-enabled-apps/ | | |
+| Improve text-to-speech by using Speech Synthesis Markup Language (SSML) | https://learn.microsoft.com/en-us/training/modules/create-speech-enabled-apps/ | https://learn.microsoft.com/en-us/azure/ai-services/speech-service/speech-synthesis-markup | |
 | Implement custom speech solutions | | | |
 | Implement intent recognition | | | |
 | Implement keyword recognition | | | |
@@ -131,8 +135,8 @@ Overarching documentation: https://learn.microsoft.com/en-us/azure/ai-services/l
 | ----- | ----------------- | ------------- | ------ |
 | Translate text and documents by using the Azure AI Translator service | | | |
 | Implement custom translation, including training, improving, and publishing a custom model | | | |
-| Translate speech-to-speech by using the Azure AI Speech service | | | |
-| Translate speech-to-text by using the Azure AI Speech service | | | |
+| Translate speech-to-speech by using the Azure AI Speech service | https://learn.microsoft.com/en-us/training/modules/translate-speech-speech-service/ | https://learn.microsoft.com/en-us/azure/ai-services/speech-service/speech-translation | |
+| Translate speech-to-text by using the Azure AI Speech service | https://learn.microsoft.com/en-us/training/modules/translate-speech-speech-service/ | https://learn.microsoft.com/en-us/azure/ai-services/speech-service/speech-translation | |
 | Translate to multiple languages simultaneously | | | |
 
 ### Implement and Manage a Language Understanding Model by Using Azure AI Language
@@ -171,13 +175,15 @@ I feel like this method is quite outdated. It pales in comparison to using RAG.
 
 ### Implement an Azure AI Search Solution
 
+Custom Lab: Implement an Azure AI Search Solution for searching through AI102 labs and docs. (TODO)
+
 | Skill | MS Labs / Exercises | Documentation | Custom Lab |
 | ----- | ----------------- | ------------- | ------ |
-| Provision an Azure AI Search resource | | | |
-| Create data sources | | | |
-| Create an index | | | |
-| Define a skillset | | | |
-| Implement custom skills and include them in a skillset | | | |
+| Provision an Azure AI Search resource | https://learn.microsoft.com/en-us/training/modules/create-azure-cognitive-search-solution/ | | |
+| Create data sources | https://learn.microsoft.com/en-us/training/modules/create-azure-cognitive-search-solution/ | | |
+| Create an index | https://learn.microsoft.com/en-us/training/modules/create-azure-cognitive-search-solution/ | | |
+| Define a skillset |  | | |
+| Implement custom skills and include them in a skillset | https://learn.microsoft.com/en-us/training/modules/create-enrichment-pipeline-azure-cognitive-search/ | | |
 | Create and run an indexer | | | |
 | Query an index, including syntax, sorting, filtering, and wildcards | | | |
 | Manage Knowledge Store projections, including file, object, and table projections | | | |
@@ -197,12 +203,14 @@ I feel like this method is quite outdated. It pales in comparison to using RAG.
 
 ### Use Azure OpenAI Service to Generate Content
 
+https://learn.microsoft.com/en-us/azure/ai-services/openai/chatgpt-quickstart?tabs=command-line%2Cpython-new&pivots=programming-language-studio
+
 | Skill | MS Labs / Exercises | Documentation | Custom Lab |
 | ----- | ----------------- | ------------- | ------ |
-| Provision an Azure OpenAI Service resource | | | |
-| Select and deploy an Azure OpenAI model | | | |
-| Submit prompts to generate natural language | | | |
-| Submit prompts to generate code | | | |
+| Provision an Azure OpenAI Service resource | https://learn.microsoft.com/en-us/training/modules/build-language-solution-azure-openai | | |
+| Select and deploy an Azure OpenAI model | https://learn.microsoft.com/en-us/training/modules/build-language-solution-azure-openai | | |
+| Submit prompts to generate natural language | https://learn.microsoft.com/en-us/training/modules/build-language-solution-azure-openai | | |
+| Submit prompts to generate code | https://learn.microsoft.com/en-us/training/modules/generate-code-azure-openai | https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/work-with-code | |
 | Use the DALL-E model to generate images | | | |
 | Use Azure OpenAI APIs to submit prompts and receive responses | | | |
 
@@ -210,7 +218,7 @@ I feel like this method is quite outdated. It pales in comparison to using RAG.
 
 | Skill | MS Labs / Exercises | Documentation | Custom Lab |
 | ----- | ----------------- | ------------- | ------ |
-| Configure parameters to control generative behavior | | | |
-| Apply prompt engineering techniques to improve responses | | | |
+| Configure parameters to control generative behavior | https://learn.microsoft.com/en-us/training/modules/apply-prompt-engineering-azure-openai | | |
+| Apply prompt engineering techniques to improve responses | https://learn.microsoft.com/en-us/training/modules/apply-prompt-engineering-azure-openai | https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/advanced-prompt-engineering?pivots=programming-language-chat-completions | |
 | Use your own data with an Azure OpenAI model | | | |
 | Fine-tune an Azure OpenAI model | | | |
